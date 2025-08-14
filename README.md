@@ -11,10 +11,10 @@ O fluxo inicia com o upload de arquivo (.txt) que vai ser utilizado para especif
 Tecnologias utilizadas para criação da aplicação
 
 <ul>
-  <li> HTML/Css (tailWind) </li> 
+  <li> HTML/Css (TailWind) </li> 
   <li> d3.js (Biblioteca JavaScript) </li>
   <li> Node.js (BackEnd) </li>
-  <li> Java </li>
+  <li> Java (BackEnd) </li>
   <li> Npm (Gerenciador de pacotes) </li>
 </ul>
 
