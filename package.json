@@ -1,0 +1,32 @@
+{
+  "name": "projetografo",
+  "version": "1.0.0",
+  "description": "Projeto para ilustraçao de um grafo",
+  "main": "index.js",
+  "scripts": {
+    "code": "concurrently \"npm run tailwind\" \"npm run start\"",
+    "tailwind": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ProjetoGrafo"
+  },
+  "keywords": [
+    "grafo",
+    "gerador",
+    "universidade"
+  ],
+  "author": "Joao Paulo, Sirius Victor",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "concurrently": "^9.2.0",
+    "d3": "^7.9.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11"
+  }
+}
