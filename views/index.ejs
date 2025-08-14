@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head onload="desenhaLinha()">
+    <title> Projeto Grafo </title>
+    <link rel="icon" href="/favicon1.ico" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="bg-gray-600 p-4 flex flex-row items-center">
+        <img src="/favicon1.ico" class="h-8 w-8 bg-transparent p-0 m-0" style="background:none;"/>
+        <h1 class="text-3xl ml-2 mt-0.5 font-bebas"> Projeto Grafo </h1>
+        <div class="text-2xl mt-0.5 ml-auto flex gap-6 font-bebas">
+            <div> GitHub </div>
+            <div> Universidade </div>
+            <div> Artigo </div>
+        </div>
+    </nav>
+
+    <main>
+
+      <!-- tamanho total do width e height
+        Par ordenado{
+          (x,y) ===> (864, 729.6)
+          (x,y) ===> (864, 729.6) / 2 ===> (432, 364.8) valores do cx e cy
+        }
+      -->
+
+      <div class="flex items-center justify-center bg-gray-300 m-5 h-screen rounded-2xl">
+        <svg class="w-full h-full p-4"> </svg>
+      </div>
+      
+    </main>
+
+  </body>
+
+  <script src="./script.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+</html>
